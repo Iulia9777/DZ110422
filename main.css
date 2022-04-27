@@ -17,12 +17,12 @@ body {
 .top {
     display: block;
     height: 26px;
+    position: relative;
 }
 .number1 {
     position: absolute;
     width: 26px;
     height: 26px;
-    top: 1px;
     font-size: 12px;
     color: #ffffff;
     background: #FFA43F;
@@ -32,23 +32,24 @@ body {
     text-align: center;
 }
 .anotation {
-    display: inline-flex; 
+    display: flex; 
     align-items: baseline;
     width: 997px;
     height: 16px;
+    position: relative;
 }
 .article {
     position: absolute;
-    left: 351px;
-    top: 32px;
+    left: 164px;
+    top: 4px;
     color: #979FAD;
     font-size: 14px;
     font-weight: bold;
 }
 .time {
     position: absolute;
-    left: 448px;
-    top: 31px;
+    left: 262px;
+    top: 2px;
     color: #979FAD;
     font-size: 14px;
     font-weight: bold;
@@ -59,20 +60,21 @@ body {
 }
 .mainblock {
     display: flex;
+    position: relative;
 }
 .logo {
     position: absolute;
-    left: 233px;
-    top: 48px;
+    left: 46px;
+    top: 5px;
 }
 .middleblock {
     display: flex;
     width: 659px;
-    padding: 30px 0px 40px 30px;
+    padding: 34px 0px 34px 42px;
 }
 .description {
     position: absolute;
-    left: 351px;
+    left: 165px;
     color: #222B3A;
     font-size: 20px;
     line-height: 0px;
@@ -91,8 +93,8 @@ body {
 }
 .remind {
     position: absolute;
-    left: 173px;
-    top: 37px;
+    left: 172px;
+    top: 36px;
     color: #696969;
     font-size: 15px;
     letter-spacing: 0.7px;
@@ -102,13 +104,13 @@ body {
 }
 .rightblock {
     display: flex;
+    position: relative;
 }
 .slider {
     position: absolute;
-    top: 35px;
-    left: 528px;
+    top: 13px;
+    left: 99px;
     justify-content: start;
-    padding-left: 31px;
     cursor: pointer;
 }
 input.slider {
